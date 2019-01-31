@@ -49,19 +49,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'admin';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['dashboard'] = 'admin/overview';
-$route['absensi'] = 'admin/absensi';
-$route['belajar'] = 'admin/belajar';
-$route['berita'] = 'admin/berita';
-$route['imageslider'] = 'admin/imageslider';
-$route['informasi'] = 'admin/informasi';
-$route['jadwal'] = 'admin/jadwal';
-$route['nilai'] = 'admin/nilai';
-$route['pembayaran'] = 'admin/pembayaran';
-$route['users'] = 'admin/users';
-$route['admin'] = 'admin/admin';
-$route['guruabsen'] = 'admin/guruabsen';
-$route['kelas'] = 'admin/kelas';
+//$route['dashboard'] = 'admin/overview';
+//$route['absensi'] = 'admin/absensi';
+//$route['belajar'] = 'admin/belajar';
+//$route['berita'] = 'admin/berita';
+//$route['imageslider'] = 'admin/imageslider';
+//$route['informasi'] = 'admin/informasi';
+//$route['jadwal'] = 'admin/jadwal';
+//$route['nilai'] = 'admin/nilai';
+//$route['pembayaran'] = 'admin/pembayaran';
+//$route['users'] = 'admin/users';
+//$route['admin'] = 'admin/admin';
+//$route['guruabsen'] = 'admin/guruabsen';
+//$route['kelas'] = 'admin/kelas';
