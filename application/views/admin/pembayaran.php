@@ -24,9 +24,9 @@
               <i class="fas fa-graduation-cap"></i>
               Pembayaran
                 <div class="btn-group mr-1 float-right" role="group" aria-label="First group">
-              <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Add Item</button></div>
+                <a href="<?php echo site_url('admin/index/addpembayaran') ?>"><div class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Add Item</div></a></div>
             <div class="btn-group mr-2 float-right" role="group" aria-label="Second group">
-               <button class="btn btn-success btn-sm "><i class="fas fa-print"></i> Print</button></div></div>
+               <button class="btn btn-success btn-sm " data-toggle="modal" data-target="#printpembayaran"><i class="fas fa-print"></i> Print</button></div></div>
             <div class="card-body">
             <div class="card-body">
               <div class="table-responsive">

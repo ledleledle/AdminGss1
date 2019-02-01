@@ -24,7 +24,7 @@
               <i class="fas fa-graduation-cap"></i>
               Admin
                 <div class="btn-group mr-1 float-right" role="group" aria-label="First group">
-              <button class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Add Item</button></div></div>
+              <a href="<?php echo site_url('admin/index/addguruabsen') ?>"><div class="btn btn-success btn-sm"><i class="fas fa-plus"></i> Add Item</div></a></div></div>
             <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

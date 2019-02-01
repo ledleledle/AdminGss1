@@ -48,6 +48,18 @@ class Admin extends CI_Controller {
         	case 'kelas':
         		$this->load->view('admin/kelas');
         		break;
+            case 'addguruabsen':
+                $this->load->view('admin/addguruabsen');
+                break;
+            case 'addadmin':
+                $this->load->view('admin/addadmin');
+                break;
+            case 'addusers':
+                $this->load->view('admin/addusers');
+                break;
+            case 'addpembayaran':
+                $this->load->view('admin/addpembayaran');
+                break;
         	default:
         		$this->load->view('admin/index');
         		break;
